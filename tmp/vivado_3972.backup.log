@@ -1,0 +1,39 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Thu Mar 12 21:53:43 2020
+# Process ID: 3972
+# Current directory: C:/Users/Андрей/Desktop/lab1/tmp
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5380 C:\Users\Андрей\Desktop\lab1\tmp\lab1.xpr
+# Log file: C:/Users/Андрей/Desktop/lab1/tmp/vivado.log
+# Journal file: C:/Users/Андрей/Desktop/lab1/tmp\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Андрей/Desktop/lab1/tmp/lab1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'G:/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:24 ; elapsed = 00:00:11 . Memory (MB): peak = 985.133 ; gain = 119.656
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+boost::filesystem::remove: Процесс не может получить доступ к файлу, так как этот файл занят другим процессом: "C:/Users/Андрей/Desktop/lab1/tmp/lab1.sim/sim_1/behav/xsim/simulate.log"
+launch_simulation
+Command: launch_simulation 
+boost::filesystem::remove: Процесс не может получить доступ к файлу, так как этот файл занят другим процессом: "C:/Users/Андрей/Desktop/lab1/tmp/lab1.sim/sim_1/behav/xsim/simulate.log"
+launch_simulation
+Command: launch_simulation 
+boost::filesystem::remove: Процесс не может получить доступ к файлу, так как этот файл занят другим процессом: "C:/Users/Андрей/Desktop/lab1/tmp/lab1.sim/sim_1/behav/xsim/simulate.log"
+launch_simulation
+Command: launch_simulation 
+boost::filesystem::remove: Процесс не может получить доступ к файлу, так как этот файл занят другим процессом: "C:/Users/Андрей/Desktop/lab1/tmp/lab1.sim/sim_1/behav/xsim/simulate.log"
+launch_simulation
+Command: launch_simulation 
+boost::filesystem::remove: Процесс не может получить доступ к файлу, так как этот файл занят другим процессом: "C:/Users/Андрей/Desktop/lab1/tmp/lab1.sim/sim_1/behav/xsim/simulate.log"
+export_ip_user_files -of_objects  [get_files C:/Users/Андрей/Desktop/lab1/rtl/test_sw.v] -no_script -reset -force -quiet
+remove_files  C:/Users/Андрей/Desktop/lab1/rtl/test_sw.v
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Mar 13 00:11:42 2020...

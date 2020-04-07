@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Fri Mar  6 13:23:53 2020
+# Process ID: 6868
+# Current directory: X:/ntuser1/!œÀ»—/lab1/tmp
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3772 X:\ntuser1\œÀ»—\lab1\tmp\lab1.xpr
+# Log file: X:/ntuser1/!œÀ»—/lab1/tmp/vivado.log
+# Journal file: X:/ntuser1/!œÀ»—/lab1/tmp\vivado.jou
+#-----------------------------------------------------------
+start_gui
+create_project lab_2 C:/Users/8183652/Desktop/lab_2/tmp -part xc7a100tcsg324-1
+close [ open C:/Users/8183652/Desktop/lab_2/rtl/lab_2.v w ]
+add_files C:/Users/8183652/Desktop/lab_2/rtl/lab_2.v
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/8183652/Desktop/lab_2/tb/lab_2_tb.v w ]
+add_files -fileset sim_1 C:/Users/8183652/Desktop/lab_2/tb/lab_2_tb.v
+update_compile_order -fileset sim_1
